@@ -15,6 +15,7 @@ func ConnectDatabase() {
 	if err != nil {
 		panic("failed to connect to database")
 	}
+
 	DB = db
 
 	fmt.Println("Connection Opened to Database")
